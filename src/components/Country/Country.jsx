@@ -16,7 +16,7 @@ const handleVisited=()=>{
 
     return (
         <div className={`country ${visited && 'visited'}`}>
-            <h3 style={{color: visited ? 'purple':'white'}}>name: {name?.common}</h3>
+            <h3 style={{color: visited ? 'purple':'white'}}>name: {name.common}</h3>
             <img src={flags.png} alt="" />
             <p>Population: {population}</p>
             <p>Area: {area}</p>
